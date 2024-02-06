@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/plugins/sw2LayerSearch" >
+        <file>icon.png</file>
+		<file>reload.png</file>
+        <file>csvicon.png</file>
+        <file>checker_select_32.png</file>
+        <file>checker_freehand_32.png</file>
+		<file>iDToolExpd.png</file>
+		<file>iDToolColp.png</file>
+    </qresource>
+</RCC>

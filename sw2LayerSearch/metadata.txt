@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=SW2 Layer Search
+qgisMinimumVersion=3.0
+description=General purpose layer search tool - exports attributes to csv file
+version=0.99
+author=Simon Warren - SW2 ICT
+email=simon.warren@malvernhills.gov.uk
+
+about=General purpose tool, similarto other layer\constraint checking plugins. Developed specifically to replace functionality available to SW2 GIS users in previous systems. The plugin allows the user to search all layers not set as non-identifialble within a selected or drawn polygon, the attributes of each feature found by a spatial query based on this polygon are then exported to a csv file. The seach polygon is also saved to the csv file along with features counts per layer and column headers. The plugin will open the csv file with the associated application for the OS.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
